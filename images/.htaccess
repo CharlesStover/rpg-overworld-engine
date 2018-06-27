@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteRule ^(characters|maps)\/(33|50|66|75)\/([\d\-\/\w]+)\.(gif|jpg|png)$ time.php?directory=$1&time=$2&file=$3&type=$4
+</IfModule>
