@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteRule ^(corner|horizontal|stem|vertical)\/([\da-f]{6})\-([\da-f]{6})\.gif$ generator.php?shape=$1&background=$2&foreground=$3 [L]
+</IfModule>

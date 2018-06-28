@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> New Document </title>
+		<script src="./scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+	</head>
+	<body>
+
+<style type="text/css">
+
+body { background-color : #f0f0f0; color : white; }
+
+.say {
+	position : relative;
+	left : 100px;
+	top : 20px;
+	text-align : center;
+}
+
+.say > * {
+	position : absolute;
+}
+
+.say .corner {
+	background-image : url("./images/say/corners.gif");
+	background-repeat : no-repeat;
+	height : 6px;
+	width : 6px;
+}
+
+.say .corner.one {
+	background-position : 0 0;
+	left : 0;
+	top : 0;
+}
+
+.say .corner.two {
+	background-position : -6px 0;
+	right : 0;
+	top : 0;
+}
+
+.say .corner.three {
+	background-position : 0 -6px;
+	bottom : 0;
+	left : 0;
+}
+
+.say .corner.four {
+	background-position : -6px -6px;
+	bottom : 0;
+	right : 0;
+}
+
+.say .horizontal {
+	background-image : url("./images/say/horizontal.gif");
+	background-repeat : repeat-x;
+	height : 6px;
+	left : 6px;
+	width : 100%;
+}
+
+.say .horizontal.bottom {
+	background-position : 0 -1px;
+	bottom : 0;
+}
+
+.say .horizontal.top {
+	background-position : 0 0;
+	top : 0;
+}
+
+.say .stem {
+	background-image : url("./images/say/right.gif");
+	bottom : -24px;
+	height : 25px;
+	left : 50%;
+	width : 20px;
+}
+
+.say .text {
+	background-color : #ffffff;
+	color : #000000;
+	display : inline-block;
+	left : 6px;
+	max-width : 160px;
+	top : 6px;
+}
+
+.say .vertical {
+	background-image : url("./images/say/vertical.gif");
+	background-repeat : repeat-y;
+	top : 6px;
+	width : 6px;
+}
+
+.say .vertical.left {
+	background-position : 0 0;
+	left : 0;
+}
+
+.say .vertical.right {
+	background-position : -1px 0;
+	right : 0;
+}
+
+</style>
+
+<div class="say">
+	<div class="horizontal top"></div>
+	<span class="text">So I says to him, I says...</span>
+	<div class="vertical left"></div>
+	<div class="vertical right"></div>
+	<div class="horizontal bottom"></div>
+	<div class="corner one"></div>
+	<div class="corner two"></div>
+	<div class="corner three"></div>
+	<div class="corner four"></div>
+	<div class="stem"></div>
+</div>
+
+<script type="text/javascript">//<![CDATA[
+$(".say").height($(".say .text").height() + 12).width($(".say .text").width() + 12);
+$(".say .horizontal").width($(".say .text").width());
+$(".say .vertical").height($(".say .text").height());
+//]]></script>
+
+	</body>
+</html>

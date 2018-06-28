@@ -1,0 +1,29 @@
+INVENTORY
+	player
+	item
+
+ITEMS
+	id
+	description
+	name
+	price - cost in stores
+
+PLAYERS
+	id
+	background - background color for say()
+	character - character ID/sprite
+	email
+	foreground - foreground color for say()
+	map - name of map currently on
+	name - display name
+	password
+	positionX - position on map
+	positionY - position on map
+
+STORES
+	id - in code, MD5("store-#"), SELECT ... WHERE MD5(CONCAT("store-", `id`)) = "hash"
+	item
+
+STORY - storyline events
+	id - in code, MD5("event-#"), SELECT ... WHERE MD5(CONCAT("event-", `id`)) = "hash" AND `player` = $user_id
+	player - ID of player that has done the event

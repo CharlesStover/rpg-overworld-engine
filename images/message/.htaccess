@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteRule ^([\d\-\w]+)\/([\da-f]{6})\-(\d+)\.jpg$ generator.php?character=$1&background=$2&height=$3 [L]
+</IfModule>
