@@ -1,0 +1,79 @@
+body {
+	height : 100%;
+	text-align : center;
+}
+
+body, h1, h2, h3, h4, h5, h6, ol, p, ul {
+	margin : 0;
+	padding : 0;
+}
+
+#debug {
+	background-color : #ffffff;
+	position : absolute;
+	text-align : center;
+	z-index : 9;
+}
+
+div.left {
+	float : left;
+}
+
+div.right {
+	float : right;
+}
+
+#footer {
+	font-size : 12pt;
+	left : 0;
+	padding : 6pt;
+	position : fixed;
+	top : 100%;
+}
+
+h1 {
+	font-size : 18pt;
+	left : 0;
+	position : relative;
+	top : 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family : "Verdana", "Tahoma", sans-serif;
+}
+
+h2 {
+	font-size : 14pt;
+	left : 0;
+	position : relative;
+	top : 0;
+}
+
+h2 strong {
+	text-decoration : underline;
+}
+
+html {
+	height : 100%;
+	overflow : auto;
+}
+
+img {
+	border-width : 0;
+}
+
+#preload {
+	display : none;
+	height : 1px;
+	max-height : 1px;
+	overflow : hidden;
+	visibility : hide;
+}
+
+#screen {
+	border : 1px solid #000000;
+	left : 25%;
+	overflow : hidden;
+	position : absolute;
+	top : 25%;
+}
