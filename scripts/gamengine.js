@@ -1564,9 +1564,9 @@ var GAME = {
     */
 
     i.push(GAME.url + "images/characters/" + GAME.timeOfDay(true) + "/" + GAME.characterSettings[GAME.characters[0].character].image);
-    i.push("images/preloader/round.gif");
-    i.push("images/preloader/bar.gif");
-    i.push("images/preloader/item.gif");
+    i.push(GAME.url + "images/preloader/round.gif");
+    i.push(GAME.url + "images/preloader/bar.gif");
+    i.push(GAME.url + "images/preloader/item.gif");
     //i.push(GAME.url + "images/say/corner/" + GAME.sayBG + "-" + GAME.sayFG + ".gif");
     //i.push(GAME.url + "images/say/horizontal/" + GAME.sayBG + "-" + GAME.sayFG + ".gif");
     //i.push(GAME.url + "images/say/stem/" + GAME.sayBG + "-" + GAME.sayFG + ".gif");
@@ -1590,14 +1590,14 @@ var GAME = {
 
         // don't download sounds already loaded
         if (!soundManager.getSoundById(id))
-          i.push("sound/" + map.sound[x]);
+          i.push(GAME.url + "sound/" + map.sound[x]);
       }
     }
 
     // images in the map
     if (typeof(map.imgs) == "object") {
       for (x = 0; x < map.imgs.length; x++)
-        i.push("images/" + map.imgs[x]);
+        i.push(GAME.url + "images/" + map.imgs[x]);
     }
     GAME.preloader.load(i, typeof(callback) == "function" ? callback : null);
   },
@@ -1983,7 +1983,7 @@ var GAME = {
           GAME.debug("Playing " + id);
           if (id in GAME.sound.authors)
             GAME.preloader.quick(
-              "images/notice/music/000000.gif",
+              GAME.url + "images/notice/music/000000.gif",
               function() {
                 GAME.notice(
                   '<img alt="Music" height="12" src="images/notice/music/000000.gif" width="13" /> &nbsp; ' +
