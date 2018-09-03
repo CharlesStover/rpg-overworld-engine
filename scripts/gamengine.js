@@ -1766,7 +1766,7 @@ var GAME = {
         GAME.preloader.quickTotal = 0;
         GAME.$gamengine.append(
           '<div id="preloader-area"><\/div>' +
-          '<img alt="Loading..." height="16" id="preloader-quick" src="images/preloader/quick7.gif" width="16" />'
+          '<img alt="Loading..." height="16" id="preloader-quick" src="' + GAME.url + 'images/preloader/quick7.gif" width="16" />'
         );
         GAME.preloader.$area = $("#preloader-area");
         GAME.preloader.$quick = $("#preloader-quick")
@@ -1986,7 +1986,7 @@ var GAME = {
               GAME.url + "images/notice/music/000000.gif",
               function() {
                 GAME.notice(
-                  '<img alt="Music" height="12" src="images/notice/music/000000.gif" width="13" /> &nbsp; ' +
+                  '<img alt="Music" height="12" src="' + GAME.url + 'images/notice/music/000000.gif" width="13" /> &nbsp; ' +
                   '&quot;' + id.replace(/\_/g, " ") + '&quot; by ' + GAME.sound.authors[id].replace(/\_/g, " ")
                 );
               }
