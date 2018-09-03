@@ -6,113 +6,113 @@
 \***********************************************/
 
 var fileSizeDotPhpSizes = {
-	'./images/characters/33/pokemon/grandma.gif': 1.27 * 1024,
-	'./images/characters/33/pokemon/leaf.gif': 2.16 * 1024,
-	'./images/characters/33/pokemon/red.gif': 2.14 * 1024,
-	'./images/characters/66/pokemon/grandma.gif': 1.2 * 1024,
-	'./images/characters/66/pokemon/leaf.gif': 2.03 * 1024,
-	'./images/characters/66/pokemon/red.gif': 2.09 * 1024,
-	'./images/characters/75/pokemon/grandma.gif': 1.2 * 1024,
-	'./images/characters/75/pokemon/leaf.gif': 2.03 * 1024,
-	'./images/characters/75/pokemon/red.gif': 2.09 * 1024,
-	'./images/characters/100/pokemon/grandma.gif': 1.18 * 1024,
-	'./images/characters/100/pokemon/leaf.gif': 2.01 * 1024,
-	'./images/characters/100/pokemon/red.gif': 2.07 * 1024,
-	'./images/choice/arrow.gif': 56,
-	'./images/choice/arrow-selected.gif': 56,
-	'./images/maps/33/oaks.png': 7.15 * 1024,
-	'./images/maps/33/pallet.png': 23.8 * 1024,
-	'./images/maps/33/room1.png': 7.36 * 1024,
-	'./images/maps/33/room2.png': 8.42 * 1024,
-	'./images/maps/33/overlays/oaks.png': 905,
-	'./images/maps/33/overlays/pallet.png': 3.95 * 1024,
-	'./images/maps/33/overlays/room1.png': 614,
-	'./images/maps/33/overlays/room2-1.png': 432,
-	'./images/maps/33/overlays/room2-2.png': 433,
-	'./images/maps/66/oaks.png': 7.15 * 1024,
-	'./images/maps/66/pallet.png': 23.8 * 1024,
-	'./images/maps/66/room1.png': 7.36 * 1024,
-	'./images/maps/66/room2.png': 8.42 * 1024,
-	'./images/maps/66/overlays/oaks.png': 905,
-	'./images/maps/66/overlays/pallet.png': 3.95 * 1024,
-	'./images/maps/66/overlays/room1.png': 614,
-	'./images/maps/66/overlays/room2-1.png': 432,
-	'./images/maps/66/overlays/room2-2.png': 433,
-	'./images/maps/75/oaks.png': 7.15 * 1024,
-	'./images/maps/75/pallet.png': 23.8 * 1024,
-	'./images/maps/75/room1.png': 7.36 * 1024,
-	'./images/maps/75/room2.png': 8.42 * 1024,
-	'./images/maps/75/overlays/oaks.png': 905,
-	'./images/maps/75/overlays/pallet.png': 3.95 * 1024,
-	'./images/maps/75/overlays/room1.png': 614,
-	'./images/maps/75/overlays/room2-1.png': 432,
-	'./images/maps/75/overlays/room2-2.png': 433,
-	'./images/maps/100/oaks.png': 7.15 * 1024,
-	'./images/maps/100/pallet.png': 23.8 * 1024,
-	'./images/maps/100/room1.png': 7.36 * 1024,
-	'./images/maps/100/room2.png': 8.42 * 1024,
-	'./images/maps/100/overlays/oaks.png': 905,
-	'./images/maps/100/overlays/pallet.png': 3.95 * 1024,
-	'./images/maps/100/overlays/room1.png': 614,
-	'./images/maps/100/overlays/room2-1.png': 432,
-	'./images/maps/100/overlays/room2-2.png': 433,
-	'./images/message/Grandma/c0c0c0-45.jpg': 1.38 * 1024,
-	'./images/message/Grandma/c0c0c0-65.jpg': 2.06 * 1024,
-	'./images/message/Grandma/c0c0c0-66.jpg': 2.08 * 1024,
-	'./images/message/Grandma/ffffff-45.jpg': 1.39 * 1024,
-	'./images/message/Grandma/ffffff-66.jpg': 2.07 * 1024,
-	'./images/message/Leaf/d8ffd8-19.jpg': 921,
-	'./images/message/Leaf/d8ffd8-45.jpg': 1.39 * 1024,
-	'./images/message/Leaf/ffffff-45.jpg': 1.39 * 1024,
-	'./images/notice/music/000000.gif': 303,
-	'./images/preloader/bar.gif': 151,
-	'./images/preloader/item.gif': 211,
-	'./images/preloader/quick7.gif': 2.87 * 1024,
-	'./images/preloader/round.gif': 208,
-	'./images/say/corner/000000-ffffff.gif': 75,
-	'./images/say/corner/808080-000000.gif': 75,
-	'./images/say/corner/909090-000000.gif': 75,
-	'./images/say/corner/a0a0a0-000000.gif': 75,
-	'./images/say/corner/a0a0a0-ff0000.gif': 75,
-	'./images/say/corner/c0c0c0-000000.gif': 75,
-	'./images/say/corner/d0d0d0-000000.gif': 75,
-	'./images/say/corner/d8ffd8-000000.gif': 75,
-	'./images/say/corner/e0e0e0-000000.gif': 75,
-	'./images/say/corner/f0f0f0-000000.gif': 75,
-	'./images/say/corner/ff0000-0000ff.gif': 75,
-	'./images/say/corner/ffffff-000000.gif': 75,
-	'./images/say/horizontal/000000-ffffff.gif': 36,
-	'./images/say/horizontal/808080-000000.gif': 36,
-	'./images/say/horizontal/909090-000000.gif': 36,
-	'./images/say/horizontal/a0a0a0-000000.gif': 36,
-	'./images/say/horizontal/a0a0a0-ff0000.gif': 36,
-	'./images/say/horizontal/c0c0c0-000000.gif': 36,
-	'./images/say/horizontal/d0d0d0-000000.gif': 36,
-	'./images/say/horizontal/d8ffd8-000000.gif': 36,
-	'./images/say/horizontal/f0f0f0-000000.gif': 36,
-	'./images/say/horizontal/ff0000-0000ff.gif': 36,
-	'./images/say/horizontal/ffffff-000000.gif': 36,
-	'./images/say/stem/808080-000000.gif': 161,
-	'./images/say/stem/909090-000000.gif': 161,
-	'./images/say/stem/c0c0c0-000000.gif': 161,
-	'./images/say/stem/d8ffd8-000000.gif': 161,
-	'./images/say/stem/f0f0f0-000000.gif': 161,
-	'./images/say/stem/ffffff-000000.gif': 161,
-	'./images/say/vertical/000000-ffffff.gif': 36,
-	'./images/say/vertical/808080-000000.gif': 36,
-	'./images/say/vertical/909090-000000.gif': 36,
-	'./images/say/vertical/a0a0a0-000000.gif': 36,
-	'./images/say/vertical/a0a0a0-ff0000.gif': 36,
-	'./images/say/vertical/c0c0c0-000000.gif': 36,
-	'./images/say/vertical/d0d0d0-000000.gif': 36,
-	'./images/say/vertical/d8ffd8-000000.gif': 36,
-	'./images/say/vertical/f0f0f0-000000.gif': 36,
-	'./images/say/vertical/ff0000-0000ff.gif': 36,
-	'./images/say/vertical/ffffff-000000.gif': 36,
-	'./sound/music/by/_Jensan/Retro.mp3': 941 * 1024,
-	'./sound/music/by/_Paulius_Jurgelevicius/Fast.mp3': 185 * 1024,
-	'./sound/music/by/_YD/Remember_Winter.mp3': 1127 * 1024,
-	'./sound/music/by/Raivu/Macrocosmos.mp3': 1.83 * 1024 * 1024
+	'images/characters/33/pokemon/grandma.gif': 1.27 * 1024,
+	'images/characters/33/pokemon/leaf.gif': 2.16 * 1024,
+	'images/characters/33/pokemon/red.gif': 2.14 * 1024,
+	'images/characters/66/pokemon/grandma.gif': 1.2 * 1024,
+	'images/characters/66/pokemon/leaf.gif': 2.03 * 1024,
+	'images/characters/66/pokemon/red.gif': 2.09 * 1024,
+	'images/characters/75/pokemon/grandma.gif': 1.2 * 1024,
+	'images/characters/75/pokemon/leaf.gif': 2.03 * 1024,
+	'images/characters/75/pokemon/red.gif': 2.09 * 1024,
+	'images/characters/100/pokemon/grandma.gif': 1.18 * 1024,
+	'images/characters/100/pokemon/leaf.gif': 2.01 * 1024,
+	'images/characters/100/pokemon/red.gif': 2.07 * 1024,
+	'images/choice/arrow.gif': 56,
+	'images/choice/arrow-selected.gif': 56,
+	'images/maps/33/oaks.png': 7.15 * 1024,
+	'images/maps/33/pallet.png': 23.8 * 1024,
+	'images/maps/33/room1.png': 7.36 * 1024,
+	'images/maps/33/room2.png': 8.42 * 1024,
+	'images/maps/33/overlays/oaks.png': 905,
+	'images/maps/33/overlays/pallet.png': 3.95 * 1024,
+	'images/maps/33/overlays/room1.png': 614,
+	'images/maps/33/overlays/room2-1.png': 432,
+	'images/maps/33/overlays/room2-2.png': 433,
+	'images/maps/66/oaks.png': 7.15 * 1024,
+	'images/maps/66/pallet.png': 23.8 * 1024,
+	'images/maps/66/room1.png': 7.36 * 1024,
+	'images/maps/66/room2.png': 8.42 * 1024,
+	'images/maps/66/overlays/oaks.png': 905,
+	'images/maps/66/overlays/pallet.png': 3.95 * 1024,
+	'images/maps/66/overlays/room1.png': 614,
+	'images/maps/66/overlays/room2-1.png': 432,
+	'images/maps/66/overlays/room2-2.png': 433,
+	'images/maps/75/oaks.png': 7.15 * 1024,
+	'images/maps/75/pallet.png': 23.8 * 1024,
+	'images/maps/75/room1.png': 7.36 * 1024,
+	'images/maps/75/room2.png': 8.42 * 1024,
+	'images/maps/75/overlays/oaks.png': 905,
+	'images/maps/75/overlays/pallet.png': 3.95 * 1024,
+	'images/maps/75/overlays/room1.png': 614,
+	'images/maps/75/overlays/room2-1.png': 432,
+	'images/maps/75/overlays/room2-2.png': 433,
+	'images/maps/100/oaks.png': 7.15 * 1024,
+	'images/maps/100/pallet.png': 23.8 * 1024,
+	'images/maps/100/room1.png': 7.36 * 1024,
+	'images/maps/100/room2.png': 8.42 * 1024,
+	'images/maps/100/overlays/oaks.png': 905,
+	'images/maps/100/overlays/pallet.png': 3.95 * 1024,
+	'images/maps/100/overlays/room1.png': 614,
+	'images/maps/100/overlays/room2-1.png': 432,
+	'images/maps/100/overlays/room2-2.png': 433,
+	'images/message/Grandma/c0c0c0-45.jpg': 1.38 * 1024,
+	'images/message/Grandma/c0c0c0-65.jpg': 2.06 * 1024,
+	'images/message/Grandma/c0c0c0-66.jpg': 2.08 * 1024,
+	'images/message/Grandma/ffffff-45.jpg': 1.39 * 1024,
+	'images/message/Grandma/ffffff-66.jpg': 2.07 * 1024,
+	'images/message/Leaf/d8ffd8-19.jpg': 921,
+	'images/message/Leaf/d8ffd8-45.jpg': 1.39 * 1024,
+	'images/message/Leaf/ffffff-45.jpg': 1.39 * 1024,
+	'images/notice/music/000000.gif': 303,
+	'images/preloader/bar.gif': 151,
+	'images/preloader/item.gif': 211,
+	'images/preloader/quick7.gif': 2.87 * 1024,
+	'images/preloader/round.gif': 208,
+	'images/say/corner/000000-ffffff.gif': 75,
+	'images/say/corner/808080-000000.gif': 75,
+	'images/say/corner/909090-000000.gif': 75,
+	'images/say/corner/a0a0a0-000000.gif': 75,
+	'images/say/corner/a0a0a0-ff0000.gif': 75,
+	'images/say/corner/c0c0c0-000000.gif': 75,
+	'images/say/corner/d0d0d0-000000.gif': 75,
+	'images/say/corner/d8ffd8-000000.gif': 75,
+	'images/say/corner/e0e0e0-000000.gif': 75,
+	'images/say/corner/f0f0f0-000000.gif': 75,
+	'images/say/corner/ff0000-0000ff.gif': 75,
+	'images/say/corner/ffffff-000000.gif': 75,
+	'images/say/horizontal/000000-ffffff.gif': 36,
+	'images/say/horizontal/808080-000000.gif': 36,
+	'images/say/horizontal/909090-000000.gif': 36,
+	'images/say/horizontal/a0a0a0-000000.gif': 36,
+	'images/say/horizontal/a0a0a0-ff0000.gif': 36,
+	'images/say/horizontal/c0c0c0-000000.gif': 36,
+	'images/say/horizontal/d0d0d0-000000.gif': 36,
+	'images/say/horizontal/d8ffd8-000000.gif': 36,
+	'images/say/horizontal/f0f0f0-000000.gif': 36,
+	'images/say/horizontal/ff0000-0000ff.gif': 36,
+	'images/say/horizontal/ffffff-000000.gif': 36,
+	'images/say/stem/808080-000000.gif': 161,
+	'images/say/stem/909090-000000.gif': 161,
+	'images/say/stem/c0c0c0-000000.gif': 161,
+	'images/say/stem/d8ffd8-000000.gif': 161,
+	'images/say/stem/f0f0f0-000000.gif': 161,
+	'images/say/stem/ffffff-000000.gif': 161,
+	'images/say/vertical/000000-ffffff.gif': 36,
+	'images/say/vertical/808080-000000.gif': 36,
+	'images/say/vertical/909090-000000.gif': 36,
+	'images/say/vertical/a0a0a0-000000.gif': 36,
+	'images/say/vertical/a0a0a0-ff0000.gif': 36,
+	'images/say/vertical/c0c0c0-000000.gif': 36,
+	'images/say/vertical/d0d0d0-000000.gif': 36,
+	'images/say/vertical/d8ffd8-000000.gif': 36,
+	'images/say/vertical/f0f0f0-000000.gif': 36,
+	'images/say/vertical/ff0000-0000ff.gif': 36,
+	'images/say/vertical/ffffff-000000.gif': 36,
+	'sound/music/by/_Jensan/Retro.mp3': 941 * 1024,
+	'sound/music/by/_Paulius_Jurgelevicius/Fast.mp3': 185 * 1024,
+	'sound/music/by/_YD/Remember_Winter.mp3': 1127 * 1024,
+	'sound/music/by/Raivu/Macrocosmos.mp3': 1.83 * 1024 * 1024
 };
 
 var fileSizeDotPhp = function(filename) {
@@ -1248,14 +1248,14 @@ var GAME = {
     //  "../scripts/soundmanager2-nodebug-jsmin.js"
     //]);
     var temp = document.createElement("script");
-    temp.setAttribute("src", "./scripts/soundmanager2-nodebug-jsmin.js");
+    temp.setAttribute("src", "scripts/soundmanager2-nodebug-jsmin.js");
     temp.setAttribute("type", "text/javascript");
     temp.onload = function() {
       window.soundManager = new SoundManager(); // Flash expects window.soundManager.
       window.soundManager.flashVersion = 8;
       window.soundManager.onready(GAME.sound.ready);
       window.soundManager.ontimeout(GAME.sound.timeout);
-      window.soundManager.url = "./scripts/";
+      window.soundManager.url = "scripts/";
       window.soundManager.useFlashBlock = false;
       window.soundManager.beginDelayedInit();
     };
@@ -1564,9 +1564,9 @@ var GAME = {
     */
 
     i.push(GAME.url + "images/characters/" + GAME.timeOfDay(true) + "/" + GAME.characterSettings[GAME.characters[0].character].image);
-    i.push("./images/preloader/round.gif");
-    i.push("./images/preloader/bar.gif");
-    i.push("./images/preloader/item.gif");
+    i.push("images/preloader/round.gif");
+    i.push("images/preloader/bar.gif");
+    i.push("images/preloader/item.gif");
     //i.push(GAME.url + "images/say/corner/" + GAME.sayBG + "-" + GAME.sayFG + ".gif");
     //i.push(GAME.url + "images/say/horizontal/" + GAME.sayBG + "-" + GAME.sayFG + ".gif");
     //i.push(GAME.url + "images/say/stem/" + GAME.sayBG + "-" + GAME.sayFG + ".gif");
@@ -1590,14 +1590,14 @@ var GAME = {
 
         // don't download sounds already loaded
         if (!soundManager.getSoundById(id))
-          i.push("./sound/" + map.sound[x]);
+          i.push("sound/" + map.sound[x]);
       }
     }
 
     // images in the map
     if (typeof(map.imgs) == "object") {
       for (x = 0; x < map.imgs.length; x++)
-        i.push("./images/" + map.imgs[x]);
+        i.push("images/" + map.imgs[x]);
     }
     GAME.preloader.load(i, typeof(callback) == "function" ? callback : null);
   },
@@ -1738,7 +1738,7 @@ var GAME = {
           GAME.preloader.loaded();
       }
       else {
-        GAME.debug('Loading image: <a href="' + src + '">' + src.replace(new RegExp("^" + GAME.url.replace(/\./g, "\\.").replace(/\//g, "\\/")), "./") + '<\/a>');
+        GAME.debug('Loading image: <a href="' + src + '">' + src.replace(new RegExp("^" + GAME.url.replace(/\./g, "\\.").replace(/\//g, "\\/")), "") + '<\/a>');
         var img = document.createElement("img");
         img.onload = GAME.preloader.loaded;
         img.setAttribute("src", src);
@@ -1766,7 +1766,7 @@ var GAME = {
         GAME.preloader.quickTotal = 0;
         GAME.$gamengine.append(
           '<div id="preloader-area"><\/div>' +
-          '<img alt="Loading..." height="16" id="preloader-quick" src="./images/preloader/quick7.gif" width="16" />'
+          '<img alt="Loading..." height="16" id="preloader-quick" src="images/preloader/quick7.gif" width="16" />'
         );
         GAME.preloader.$area = $("#preloader-area");
         GAME.preloader.$quick = $("#preloader-quick")
@@ -1774,7 +1774,7 @@ var GAME = {
           .slide(GAME.$gamengine.width() / 2 - 8, GAME.$gamengine.height() / 2 - 8);
         for (var x = 0; x < GAME.preloader.todo.length; x++) {
           // needs quick loading sound, too
-          GAME.debug('Quick loading image: <a href="' + GAME.preloader.todo[x] + '">' + GAME.preloader.todo[x].replace(new RegExp("^" + GAME.url.replace(/\./g, "\\.").replace(/\//g, "\\/")), "./") + '<\/a>');
+          GAME.debug('Quick loading image: <a href="' + GAME.preloader.todo[x] + '">' + GAME.preloader.todo[x].replace(new RegExp("^" + GAME.url.replace(/\./g, "\\.").replace(/\//g, "\\/")), "") + '<\/a>');
           var img = document.createElement("img");
           img.onload = GAME.preloader.quickLoaded;
           img.setAttribute("src", GAME.preloader.todo[x]);
@@ -1983,10 +1983,10 @@ var GAME = {
           GAME.debug("Playing " + id);
           if (id in GAME.sound.authors)
             GAME.preloader.quick(
-              "./images/notice/music/000000.gif",
+              "images/notice/music/000000.gif",
               function() {
                 GAME.notice(
-                  '<img alt="Music" height="12" src="./images/notice/music/000000.gif" width="13" /> &nbsp; ' +
+                  '<img alt="Music" height="12" src="images/notice/music/000000.gif" width="13" /> &nbsp; ' +
                   '&quot;' + id.replace(/\_/g, " ") + '&quot; by ' + GAME.sound.authors[id].replace(/\_/g, " ")
                 );
               }
@@ -2051,7 +2051,7 @@ var GAME = {
     );
   },
   timeouts: {},
-  url: "./"
+  url: ""
 };
 
 GAME.start = function() {
@@ -2073,5 +2073,5 @@ window["soundManager"]["debugMode"] = false;
 window["soundManager"]["flashVersion"] = 8;
 window["soundManager"]["onready"](GAME.sound.ready);
 window["soundManager"]["ontimeout"](GAME.sound.timeout);
-window["soundManager"]["url"] = "./scripts/";
+window["soundManager"]["url"] = "scripts/";
 window["soundManager"]["useFlashBlock"] = false;
