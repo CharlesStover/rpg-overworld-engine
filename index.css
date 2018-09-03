@@ -1,4 +1,5 @@
 body {
+	background-color: #202020;
 	text-align: center;
 }
 
@@ -52,16 +53,20 @@ body {
 	}
 
 #debug {
-	background-color: #ffffff;
+	background-color: #202020;
+	color: #F0F0F0;
 	font-size: 12px;
 	left: 0;
 	margin: 0 auto;
-	overflow-x: hidden;
-	overflow-y: auto;
+	overflow: hidden;
 	position: absolute;
 	top: 0;
 	text-align: left;
 }
+
+	#debug a {
+		color: #F0F0F0;
+	}
 
 	#debug > div {
 		padding: 15px;
