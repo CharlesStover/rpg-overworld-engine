@@ -2051,7 +2051,7 @@ var GAME = {
     );
   },
   timeouts: {},
-  url: ""
+  url: "https://gamingmedley.github.io/rpg-overworld-engine/"
 };
 
 GAME.start = function() {
